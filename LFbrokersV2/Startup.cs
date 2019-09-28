@@ -43,9 +43,8 @@ namespace LFbrokersV2
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            //var connection = @"Server=lfemminella;Database=LFbrokers;Trusted_Connection=True;ConnectRetryCount=0";
-            // TODO Update Server connection
-            var connection = @"Server=DESKTOP-0V1H3B5;Database=LFbrokers;Trusted_Connection=True;ConnectRetryCount=0";
+            String sqlConnection = DataUtils.connectionString;
+            var connection = @sqlConnection;
             services.AddDbContext<LFbrokersContext>(options => options.UseSqlServer(connection));
         }
 

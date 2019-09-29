@@ -34,6 +34,7 @@ namespace LFbrokersV2
             conection.Open();
             SqlCommand cmd;
             SqlDataReader dr;
+            
             cmd = new SqlCommand("SELECT " + value + ", " + text + " FROM " + model, conection);
             try
             {

@@ -66,7 +66,7 @@ using LFbrokersV2.Models;
             WriteLiteral("\r\n<h2>Cotizaciones de clientes</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(139, 49, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4271f525109b4e758c1dd504d96ab3a5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "222f6d9a0cf248db9f1244c3755428d7", async() => {
                 BeginContext(162, 22, true);
                 WriteLiteral("Crear nueva cotizacion");
                 EndContext();
@@ -396,7 +396,7 @@ using LFbrokersV2.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(3432, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c12b8e6873f45849b506b20d567e150", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6dfcd92103994059a33e0ccdefbd1976", async() => {
                 BeginContext(3477, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -431,7 +431,7 @@ using LFbrokersV2.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(3505, 59, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9097a60179c54206a856a4d1f8a88b46", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb80fef1c4ee472bbb134162228cdfa9", async() => {
                 BeginContext(3553, 7, true);
                 WriteLiteral("Details");
                 EndContext();
@@ -466,7 +466,7 @@ using LFbrokersV2.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(3584, 57, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ef875b207b9d425cb31e148f84e4fd12", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1c4f1c87ce0f4a109b4580a0e4b215d8", async() => {
                 BeginContext(3631, 6, true);
                 WriteLiteral("Delete");
                 EndContext();
